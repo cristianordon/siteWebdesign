@@ -1,0 +1,197 @@
+
+/* Geral */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Barra de navegação responsiva */
+  .navbar-custom {
+    background-color: #696969;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    color: white;
+    font-size: 30px; 
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 15px; 
+  }
+  
+  .navbar-brand {
+    margin-right: 20px; 
+  }
+  
+  /* Início */
+  #inicio {
+    background-color: #F9E42F;
+    overflow: hidden;
+    text-align: justify;
+    padding: 50px; 
+  }
+  
+  .titulo-inicio {
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-size: 45px;
+  }
+  
+  .inicio-texto {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .inicio-imagem {
+    float: left;
+    margin: 30px;
+    margin-right: 30px;
+    width: 100%;
+    max-width: 522px; 
+    height: auto;
+  }
+  
+  /* Seção Sobre */
+  #sobre {
+    background-color: #696969;
+    overflow: hidden;
+    text-align: justify;
+    color: #FFFFFF;
+    padding: 50px;
+  }
+  
+  .titulo-sobre {
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-size: 45px;
+  }
+  
+  .sobre-texto {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    max-width: 100%; 
+  }
+  
+  .imagem-sobre {
+    float: left;
+    margin: 30px;
+    margin-right: 30px;
+    width: 100%;
+    max-width: 522px; 
+    height: auto;
+  }
+  
+  /* Seção Cursos */
+  #cursos {
+    background-color: #FFFFFF;
+    padding: 0; 
+  }
+  
+  .carousel-item {
+    height: 100%;
+    background-color: #F9E42F;
+  }
+  
+  .imagem-cursos {
+    float: left;
+    margin: 30px;
+    margin-right: 30px;
+    width: 100%;
+    max-width: 522px; 
+    height: auto;
+  }
+
+  .titulo-cursos {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: 'Itim', cursive;
+    font-size: 45px;
+  }
+
+
+  /* Linha Cursos */
+  #cursos .row {
+    width: 100%; 
+    margin-right: 0; 
+    margin-left: 0; 
+  }
+  
+  /* Coluna  "Cursos" */
+  #cursos .col-md-6 {
+    padding-right: 30px; 
+    padding-left: 30px; 
+  }
+  
+  /* Botão de comprar do Cursos */
+  #cursos .d-flex.justify-content-center {
+    margin-top: 30px; 
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black; 
+  }
+  
+  
+  /* Seção Formulário */
+  #contato {
+    background-color: #696969;
+    padding: 50px; 
+  }
+  
+  .formulario {
+    background-color: #696969;
+  }
+  
+  .form-control {
+    background-color: #D9D9D9;
+  }
+  
+  .titulo {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Itim', cursive;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #F9E42F;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Logos redes sociais */
+  .social-logos {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-logo {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+  
+  /* Footer responsivo em telas menores */
+  @media screen and (max-width: 600px) {
+    .imagem-sobre,
+  .imagem-cursos,
+  .inicio-imagem {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+    .footer {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .social-logo {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  /* Fim do Código */
