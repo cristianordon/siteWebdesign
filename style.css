@@ -13,7 +13,7 @@ body {
   .navbar-custom .navbar-nav .nav-link {
     color: white;
     font-size: 30px; 
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   
   .navbar-nav .nav-item {
@@ -103,10 +103,16 @@ body {
   }
 
   .titulo-cursos {
-    text-align: left;
+    text-align: center;
     color: #FFFFFF;
     font-family: 'Itim', cursive;
     font-size: 45px;
+  }
+
+  .texto-cursos {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    max-width: 100%; 
   }
 
 
